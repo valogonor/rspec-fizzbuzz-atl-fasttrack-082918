@@ -7,7 +7,8 @@ def fizzbuzz(number)
     return "Fizz"
     elsif number % 5 == 0
     return "Buzz"
+  else return "Nil"
   end
 end
 
-puts fizzbuzz(15)
+puts fizzbuzz()
